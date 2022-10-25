@@ -5,11 +5,13 @@
 
 @font-face {
     font-family: 'Poppins';
-    src: url(../fonts/Poppins-light.otf);
+    font-weight: 300;
+    src: url(../fonts/Poppins-Light.otf);
 }
 
 @font-face {
     font-family: 'Poppins';
+    font-weight: 600;
     src: url(../fonts/Poppins-Medium.otf);
 }
 
