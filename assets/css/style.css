@@ -5,13 +5,11 @@
 
 @font-face {
     font-family: 'Poppins';
-    font-weight: 300;
     src: url(../fonts/Poppins-light.otf);
 }
 
 @font-face {
     font-family: 'Poppins';
-    font-weight: 600;
     src: url(../fonts/Poppins-Medium.otf);
 }
 
@@ -609,7 +607,7 @@ a {
     }
 
     .hero {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .hero_info .hero_title {
@@ -652,11 +650,15 @@ a {
         text-align: center;
         margin-top: 20px;
         width: 385px;
-        height: 645px;
+        height: 380px;
     }
 
     .desc_section {
-        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    .desc_info {
+        margin-top: 20px;
     }
 
     .desc_video video {
